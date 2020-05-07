@@ -1,0 +1,21 @@
+<h1>Símbolos Especiais</h1>
+<p>
+&lt; <!--Menor que-->
+&gt;<!--Maior que-->
+&le; <!--Menor ou igual a-->
+&ge; <!--Maior ou igual a--> </br>
+
+&pound;
+&yen;
+&euro; </br>
+
+&copy;
+&reg;
+&trade; </br>
+
+&permil;
+&sum;
+&infin;
+&times;
+
+</p>
