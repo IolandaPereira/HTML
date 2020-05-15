@@ -32,7 +32,7 @@ figure.foto-legenda figcaption{
     opacity:0; /*Escondendo a legenda*/
     position: absolute; /*Posição da legenda da imagem*/
     top: 0px;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(134, 83, 83, 0.4);
     color: white;
     width: 100%; /*Colocar a legenda para ocupar toda a imagem*/
     height: 100%;
