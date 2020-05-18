@@ -47,7 +47,7 @@ figure.foto-legenda:hover figcaption{
 }
 
 
-/* Formatação do menu*/
+/*------------------ Formatação do menu*-------------------------*/
 nav#menu ul{
     list-style: none; /*tira os marcadores de cada elemento da lista*/
     text-transform: uppercase; /*transforma tds as letras em maiúsculas*/
