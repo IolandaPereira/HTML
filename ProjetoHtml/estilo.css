@@ -45,3 +45,29 @@ figure.foto-legenda figcaption{
 figure.foto-legenda:hover figcaption{
     opacity:1;
 }
+
+
+/* Formatação do menu*/
+nav#menu ul{
+    list-style: none; /*tira os marcadores de cada elemento da lista*/
+    text-transform: uppercase; /*transforma tds as letras em maiúsculas*/
+    position: absolute; /*posição absoluta=pode ocupar qlqr parte do site*/
+    top: -20px;
+    left: 700px;
+}
+
+nav#menu li{
+    display: inline-block; /*Faz com que um bloco seja salvo numa mesma linha*/
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+}
+
+/*Fazer o menu flutuar: tem que fazer o nav menu seja exibido como um bloco*/
+nav#menu{
+   display:block; /*faz com que o menu seja exibido como um bloco (um bloco pode fluturar pela tela*/
+}
+
+nav#menu h1{
+    display:none;
+}
