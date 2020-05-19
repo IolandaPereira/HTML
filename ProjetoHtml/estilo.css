@@ -5,12 +5,26 @@ p{
 }
 
 body{
-    background-color:white;
+    background-color: #dddddd;
     color: rgba(0, 0, 0, 0.966);
 }
 
+header#cabecalho img#icone{
+    position:absolute;
+    left: 950px;
+    top: 40px;
+}
+
+div#interface{
+    width: 900px;
+    background-color: white;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+    padding: 10px;
+}
+
 hgroup{
-    text-align:center;
+    text-align:left;
     line-height: 0.5em;
 
 }
@@ -47,27 +61,50 @@ figure.foto-legenda:hover figcaption{
 }
 
 
-/*------------------ Formatação do menu*-------------------------*/
+/*----------------------------------------- Formatação do menu*-------------------------------------*/
+
+/*Fazer com que o menu nav sejá tratado como um bloco, pois um bloco pode ser movimentar em qlqr área do site*/
+nav#menu{
+    display: block; /*Essa propriedade faz com que elemento se comporte como um bloco, oupando praticamente toda a largura disponível na página*/
+}
+
 nav#menu ul{
-    list-style: none; /*tira os marcadores de cada elemento da lista*/
-    text-transform: uppercase; /*transforma tds as letras em maiúsculas*/
-    position: absolute; /*posição absoluta=pode ocupar qlqr parte do site*/
+    list-style: none; /*retira os marcadores da marcação da lista*/
+    text-transform: uppercase;
+    position: absolute;
     top: -20px;
-    left: 700px;
+    left: 500px;
 }
 
 nav#menu li{
-    display: inline-block; /*Faz com que um bloco seja salvo numa mesma linha*/
+    display: inline-block; /*O elmento é tratado como um bloco e pode ser outros blocos ao lado dele*/
     background-color: #dddddd;
     padding: 10px;
     margin: 2px;
-}
-
-/*Fazer o menu flutuar: tem que fazer o nav menu seja exibido como um bloco*/
-nav#menu{
-   display:block; /*faz com que o menu seja exibido como um bloco (um bloco pode fluturar pela tela*/
+    transition: background-color 1s;
 }
 
 nav#menu h1{
-    display:none;
+    display:none; /*faz com que o elemento e seus filhos não sejam renderizados na pag web*/
 }
+
+/*Efeito que aparecerá qd mover o mouse por cima do li*/
+nav#menu li:hover{
+    background-color: #606060; 
+}
+
+/*Mudar a cor do link*/
+nav#menu a{
+    color: black;
+    text-decoration: none;
+}
+
+/*Mudar a cor do link qd o mouse passar por cima*/
+nav#menu a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
