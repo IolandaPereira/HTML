@@ -26,8 +26,18 @@ div#interface{
 hgroup{
     text-align:left;
     line-height: 0.5em;
-
 }
+
+hgroup#grupo1{
+    margin:0px 250px 0px 250px;
+    text-align: center;
+}
+
+hgroup#grupo2{
+    margin: 10px;
+    font-size: 15px;
+}
+
 
 /* Formtação de imagens com legendas */
 
