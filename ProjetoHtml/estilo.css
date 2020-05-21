@@ -135,12 +135,13 @@ section#corpo{
     width: 500px;
     float: left;   
     border-right: 1px solid #606060;
-    padding: 10px;
+    padding-right: 10px;
+    
 }
 
 aside#lateral{
     display:block;
-    width: 350px;
+    width: 380px;
     float: right; 
 }
 
