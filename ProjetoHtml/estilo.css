@@ -135,8 +135,21 @@ section#corpo{
     width: 500px;
     float: left;   
     border-right: 1px solid #606060;
-    padding-right: 10px;
-    
+    padding-right: 10px; 
+}
+
+table#tabelaspec{
+    border: 1px  solid #606060;
+    border-spacing: 0px; /*espaço entre as células, ou seja, os <td>*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#tabelaspec td{
+    border: 1px solid #606060;
+    padding: 10px;
+    text-align: center;
+    vertical-align: midle;
 }
 
 aside#lateral{
