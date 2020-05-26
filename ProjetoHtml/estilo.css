@@ -138,13 +138,14 @@ section#corpo{
     padding-right: 10px; 
 }
 
+/*Configuração geral da tabela*/
 table#tabelaspec{
     border: 1px  solid #606060;
     border-spacing: 0px; /*espaço entre as células, ou seja, os <td>*/
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
+/*Configuração geral das células da tabela*/
 table#tabelaspec td{
     border: 1px solid #606060;
     padding: 10px;
@@ -152,12 +153,46 @@ table#tabelaspec td{
     vertical-align: midle;
 }
 
+/*Configuração das células da class=ce*/
+table#tabelaspec td.ce{
+    color:white;
+    background-color: #606060;
+    vertical-align: top; /*a formatação para todos os td é midle, porém a formatação da classe irá sobrepo-la*/
+    font-weight: bold;
+    text-align: right;
+}
+
+/*Configuração das células da class=cd*/
+table#tabelaspec td.cd{
+    background-color: #cecece;
+    text-align: left;
+}
+
+/*Configuração do título*/
+table#tabelaspec caption{
+ color: rgb(65, 64, 64);
+ font-size: 15pt;
+ font-weight: bold;
+}
+
+/*Configuração do span*/
+table#tabelaspec caption span{
+    display:block;
+    float: right;
+    border: 1px solid #606060;
+    color: black;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+
+/*Configuração do bloco lateral*/
 aside#lateral{
     display:block;
     width: 380px;
     float: right; 
 }
 
+/*Configuação do rodapé*/
 footer#rodape{
     clear: both;
     border-top: 1px solid #606060;
