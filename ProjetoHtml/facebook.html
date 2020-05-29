@@ -4,6 +4,12 @@
     <meta charset="utf-8">
 
     <style>
+        body{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 10pt;
+        }
+    
         div#interface{
             width: 1365px;
             margin-top: -20px;
@@ -21,6 +27,53 @@
             margin-left: 160px;
         } 
 
+        div#email{
+            position: absolute;
+            margin-right: 10px;
+            top: 20px;
+            left: 800px;
+        }
+
+        div#senha{
+            position: absolute;
+            margin-right: 10px;
+            top: 20px;
+            left: 970px;
+        }
+
+        .bloco{
+            width: 150px;
+            height: 18px;
+            border: 1px solid black;
+        }
+
+        div#botao{
+            position: absolute;
+            margin-right: 10px;
+            top: 35px;
+            left: 1140px;      
+        }
+
+        div#botao a{
+            text-decoration: none;
+        }
+
+        p#recuperar{
+            display: block;
+            position: absolute;
+            top: 50px;
+            left: 970px;
+        }
+
+        p#recuperar a{
+            color:#b5bfd4;
+            text-decoration: none;
+        }
+
+        p#recuperar a:hover{
+            text-decoration: underline;
+        }
+
     </style>
 </head>
 
@@ -30,25 +83,25 @@
             <img id="figura" src="logo.png">
 
             <form id="login">
-                <div>
+                <div id="email">
                     <label>Email ou telefone:</label>
-                    <input type="email" id="email" />
+                    <br>
+                    <input class="bloco" type="email" id="email" />
                 </div>
-                <div>
+                <div id="senha">
                     <label>Senha:</label>
-                    <input type="text" id="senha" />
+                    <br>
+                    <input class="bloco" type="password" id="senha" />
                 </div>
-                <div class="button">
-                    <button type="submit">Entrar</button>
+                <div id="botao">
+                    <button type="submit"><a link href="https://pt-br.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110">Entrar</a></button>
                 </div>
             </form>
 
+            <p id="recuperar"><a link href="https://pt-br.facebook.com/login/identify/?ctx=recover&ars=royal_blue_bar">Esqueceu a conta?</a></p>    
 
-                
         </header>
-
-        <p>dkjsd</p>
-        <p>jsdhkss</p>
+       
        </div>
        
             
